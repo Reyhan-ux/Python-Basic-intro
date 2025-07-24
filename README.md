@@ -65,11 +65,11 @@ print(type(x))  # Output: <class 'int'>
 
 **Type Casting**  
 Convert between types using constructors:  
-`python  
+ `python  
 num_str = str(100)          # "100"  
 num_int = int("50")         # 50  
 num_float = float("3.14")   # 3.14  
-`  
+ `  
 --
 ## **Section 3: Variables & Naming Rules*  
 
@@ -79,7 +79,7 @@ No explicit declaration needed—just assign a value:
 score = 95        # Integer  
 pi = 3.14159      # Float  
 language = "Python"  
-`  
+ `  
 
 ### **Naming Conventions**  
 - **Valid**: Starts with a letter/underscore (`_`), contains letters/numbers/underscores.  
@@ -102,7 +102,7 @@ if score > 70:
 ### **Comments*
 - **Single-line**:  
   `python  
-  # This is a comment  
+  """ This is a comment """
   `  
 - **Multi-line**:  
   `python  
