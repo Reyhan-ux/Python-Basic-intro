@@ -62,7 +62,6 @@ y = 3.14        # Float
 z = "Python"    # String  
 print(type(x))  # Output: <class 'int'>  
 ` 
-
 **Type Casting**  
 Convert between types using constructors:  
  `python  
@@ -71,6 +70,7 @@ num_int = int("50")         # 50
 num_float = float("3.14")   # 3.14  
  `  
 --
+
 ## **Section 3: Variables & Naming Rules*  
 
 ### **Variable Assignment**  
