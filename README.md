@@ -55,6 +55,7 @@ Python supports multiple built-in data types:
 - *Binary*: `bytes`, `bytearray`, `memoryview`  
 - *None*: `NoneType`  
 
+
 **Example: Type Checking**  
  `python  
 x = 10          # Integer  
@@ -62,6 +63,7 @@ y = 3.14        # Float
 z = "Python"    # String  
 print(type(x))  # Output: <class 'int'>  
  ` 
+
 **Type Casting**  
 Convert between types using constructors:  
  `python  
