@@ -19,7 +19,7 @@ This is a brief notebook covering all the core programming concepts with clear e
 - Format strings with f-strings
 - Manage different input types  
 
-*Example 1: Basic Input/Output* 
+**Example 1: Basic Input/Output**
   ``python  
 user_name = input("Enter your name: ")  
 print("Hello, World!")  
@@ -32,7 +32,7 @@ name = "Alex"
 print(f"Hello, {name}!")  # Cleaner than concatenation  
 `  
 
-*F-Strings vs. Concatenation*  
+**F-Strings vs. Concatenation**
 
 - **Concatenation**: Manual type conversion required.  
   `python  
