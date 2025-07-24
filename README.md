@@ -1,18 +1,17 @@
 
-### **Introduction into Python*
+### **Introduction into Python By Reyhan Ebai*
 
-Welcome to this Python basics guide! This notebook breaks down core programming concepts with clear examples to build your skills.  
+This is a brief notebook covering all the core programming concepts with clear examples.
 
-### **Key Topics Covered**
+
+### **Key Topics Covered*
 - Input/Output operations
 - Data types & variables
 - Control flow & loops
 - Functions & error handling
 - Data structures & a final project
 
----  
-
-## **Section 1: Input & Output**  
+## **Section 1: Input & Output*
 
 ### Key Skills
 - Capture user input with `input()`  
@@ -27,106 +26,91 @@ print("Hello, World!")
 print("Welcome, " + user_name + "!")  
  ``
 
-**Example 2: F-Strings (Formatted Strings)**  
-```python  
+**Example 2: F-Strings (Formatted Strings)**
+`python  
 name = "Alex"  
 print(f"Hello, {name}!")  # Cleaner than concatenation  
-```  
+`  
 
-**F-Strings vs. Concatenation**  
+**F-Strings vs. Concatenation*  
 - **Concatenation**: Manual type conversion required.  
-  ```python  
+  `python  
   age = 30  
   print("Age: " + str(age))  # Explicit conversion  
-  ```  
+  ` 
 - **F-Strings**: Automatic conversion.  
-  ```python  
+  `python  
   print(f"Age: {age}")  # No conversion needed  
-  ```  
-
----  
-
-## **Section 2: Data Types**  
+  `
+--
+## **Section 2: Data Types* 
 
 Python supports multiple built-in data types:  
-- **Text**: `str`  
-- **Numeric**: `int`, `float`, `complex`  
-- **Sequences**: `list`, `tuple`, `range`  
-- **Mappings**: `dict`  
-- **Sets**: `set`, `frozenset`  
-- **Boolean**: `bool`  
-- **Binary**: `bytes`, `bytearray`, `memoryview`  
-- **None**: `NoneType`  
+- *Text*: `str`  
+- *Numeric**: `int`, `float`, `complex`  
+- *Sequences*: `list`, `tuple`, `range`  
+- *Mappings*: `dict`  
+- *Sets*: `set`, `frozenset`  
+- *Boolean*: `bool`  
+- *Binary*: `bytes`, `bytearray`, `memoryview`  
+- *None*: `NoneType`  
 
 **Example: Type Checking**  
-```python  
+`python  
 x = 10          # Integer  
 y = 3.14        # Float  
 z = "Python"    # String  
 print(type(x))  # Output: <class 'int'>  
-```  
+` 
 
 **Type Casting**  
 Convert between types using constructors:  
-```python  
+`python  
 num_str = str(100)          # "100"  
 num_int = int("50")         # 50  
 num_float = float("3.14")   # 3.14  
-```  
-
----  
-
-## **Section 3: Variables & Naming Rules**  
+`  
+--
+## **Section 3: Variables & Naming Rules*  
 
 ### **Variable Assignment**  
 No explicit declaration needed—just assign a value:  
-```python  
+`python  
 score = 95        # Integer  
 pi = 3.14159      # Float  
 language = "Python"  
-```  
+`  
 
 ### **Naming Conventions**  
 - **Valid**: Starts with a letter/underscore (`_`), contains letters/numbers/underscores.  
   - `user_age`, `total_count`, `_temp`  
 - **Invalid**: Starts with a number or uses special characters.  
-  - `2nd_place` (❌), `user-name` (❌)  
+  - `2nd_place`, `user-name`  
 - **Case-sensitive**: `name ≠ Name ≠ NAME`.  
 
----  
+--
 
-## **Section 4: Indentation & Comments**  
+## **Section 4: Indentation & Comments*  
 
 ### **Indentation**  
 Python uses whitespace (tabs/spaces) to define code blocks:  
-```python  
+`python  
 if score > 70:  
     print("Passed!")  # Indented block  
-```  
+`  
 
-### **Comments**  
+### **Comments*
 - **Single-line**:  
-  ```python  
+  `python  
   # This is a comment  
-  ```  
+  `  
 - **Multi-line**:  
-  ```python  
+  `python  
   """  
   This is a  
   multi-line comment  
   """  
-  ```  
+  `
+--- 
 
----  
-
-**Next Steps**: Control flow, loops, and functions!  
-
----  
-
-### **Key Differences from Original**:  
-- Reworded headings/explanations (e.g., "f-strings" → "Formatted Strings").  
-- Simplified some examples (e.g., removed redundant `input()` demos).  
-- Added bullet points for readability.  
-- Reordered sections (e.g., variables before indentation).  
-
-Let me know if you'd like adjustments! 🚀
+**Next Steps**: Control flow, loops, and functions
